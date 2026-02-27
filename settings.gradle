@@ -1,1 +1,3 @@
 rootProject.name = 'event-driven-order-platform'
+
+include 'services:order_service'
