@@ -38,3 +38,6 @@ out/
 
 /infra/*.yml
 /infra/*.yaml
+
+/LEARNING_GOAL.md
+/AGENT.md
