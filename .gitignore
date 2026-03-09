@@ -41,3 +41,7 @@ out/
 
 /LEARNING_GOAL.md
 /AGENT.md
+/.beads/
+
+.dolt/
+*.db
