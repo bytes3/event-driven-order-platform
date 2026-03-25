@@ -40,7 +40,8 @@ out/
 /infra/*.yaml
 
 /LEARNING_GOAL.md
-/AGENT.md
+/AGENTS.md
+/docs/
 /.beads/
 
 .dolt/
