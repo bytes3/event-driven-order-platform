@@ -11,6 +11,7 @@ dependencies {
     implementation libs.spring.boot.starter.webmvc
     implementation libs.spring.boot.starter.flyway
     implementation libs.spring.boot.starter.flyway.test
+    implementation libs.spring.boot.starter.artemis
     runtimeOnly libs.flywaydb.database.postgresql
     runtimeOnly libs.postgresql
 
@@ -23,4 +24,6 @@ dependencies {
     testImplementation libs.testcontainers.postgresql
     
     testRuntimeOnly libs.junit.platform.launcher
+
+    implementation project(':services:event-contracts')
 }

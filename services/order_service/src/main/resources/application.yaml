@@ -16,5 +16,16 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+  artemis:
+    mode: native
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+
+events:
+  orders:
+    created:
+      v1: orders.created.v1
+
 server:
   port: 8081

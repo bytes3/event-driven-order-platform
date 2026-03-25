@@ -39,7 +39,7 @@ public class OrderController {
     @GetMapping("/{orderId}")
     public ResponseEntity<OrderEntity> getOrder(@PathVariable String orderId) {
         return orderService.getById(orderId)
-                .map(ResponseEntity::ok )
+                .map(ResponseEntity::ok)
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
 }

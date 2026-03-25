@@ -13,7 +13,6 @@ import java.util.List;
 public record CreateOrderRequest(
         @NotBlank String customerId,
         @NotBlank String currency,
-        @NotBlank String paymentMethodRef,
         @NotEmpty List<@Valid Item> items
 ) {
 
